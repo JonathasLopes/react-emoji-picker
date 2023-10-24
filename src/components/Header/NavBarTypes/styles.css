@@ -1,0 +1,32 @@
+.navBarTypes-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: var(--color-background-secondary);
+}
+
+.navBarTypes-container .types-emoji button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    margin: 0 4px;
+    border-radius: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: .2s;
+}
+
+.navBarTypes-container .types-emoji button span {
+    position: absolute;
+    font-size: 15px;
+    margin: 0;
+}
+
+.navBarTypes-container .types-emoji button.active,
+.navBarTypes-container .types-emoji button:hover {
+    filter: grayscale(0%);
+    background-color: var(--color-button-secondary);
+}

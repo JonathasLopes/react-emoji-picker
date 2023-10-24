@@ -1,0 +1,18 @@
+.searchEmoji-container {
+    position: relative;
+    margin-right: 4px; 
+}
+
+.searchEmoji-container input {
+    width: 190px;
+    padding-left: 40px;
+}
+
+.searchEmoji-container .icon-search {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}

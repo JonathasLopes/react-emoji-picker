@@ -1,0 +1,12 @@
+.sectionType-container {
+    height: 100%;
+}
+
+.sectionType-container .back-list {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.sectionType-container .back-list ul {
+    padding: 0px;
+}

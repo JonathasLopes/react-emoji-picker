@@ -1,0 +1,28 @@
+.sectionEmoji-container .list-emojis {
+    display: flex;
+}
+
+.sectionEmoji-container .list-emojis button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 13px;
+    transition: .1s;
+    z-index: 2;
+}
+
+.sectionEmoji-container .list-emojis button span {
+    position: absolute;
+    font-size: 20px;
+    margin: 0;
+}
+
+.sectionEmoji-container .list-emojis button:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
