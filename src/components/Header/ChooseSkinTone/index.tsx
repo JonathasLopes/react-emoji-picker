@@ -17,9 +17,9 @@ export default function ChooseSkinTone({callback}: IChooseSkinToneProps) {
             </button>
             {showSkinTone &&
                 <ul className="choose-tone">
-                    {SkinTone.map(skin => {
+                    {SkinTone.map((skin, index) => {
                         return (
-                            <li key={skin}>
+                            <li key={index}>
                                 <button onClick={() => { 
                                     !Number.isNaN(skin) ? setSkinTone([0x1F44C, skin]) : setSkinTone([0x1F44C]); 
                                     setShowSkinTone(false); 

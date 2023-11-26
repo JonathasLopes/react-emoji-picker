@@ -5,3 +5,7 @@
 .buttonEmoji-container input {
     outline: none;
 }
+
+.buttonEmoji-container li {
+    list-style: none;
+}

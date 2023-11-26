@@ -3,6 +3,7 @@ import { SearchContent, TypeContent } from "./Content";
 import { EmojisTypes } from '../static/EmojisTypes';
 import { NavBar, Search, SkinTone } from './Header';
 import { CheckScroll } from '../utils/Functions';
+import {MdClose} from 'react-icons/md';
 import './styles.css';
 
 interface IEmojiPickerProps {
@@ -34,7 +35,7 @@ export default function EmojiPicker({ toggleClose, emojiSelected }: IEmojiPicker
 
                         <div className="exit" onClick={() => toggleClose(false)}>
                             <button type="button" >
-
+                                <MdClose />
                             </button>
                         </div>
                     </div>
